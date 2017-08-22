@@ -21,7 +21,7 @@ def creaScala(file_name):
     return scala
 
 def larghezzaScala():
-    s = creaScala("scala.lines")
+    s = creaScala("stair.lines")
     l = UKPOL(s)
     vertici = l[0]
     vertici.remove(vertici[0])
@@ -38,7 +38,7 @@ def larghezzaScala():
 
 
 def puntiScala(scala):
-    s = creaScala("scala.lines")
+    s = creaScala("stair.lines")
     l = UKPOL(s)
     vertici = l[0]
     vertici.remove(vertici[0])

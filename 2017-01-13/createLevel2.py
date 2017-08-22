@@ -194,7 +194,7 @@ def cleanList(lista):
 
 
 def creaPlanimetry2(file_name):
-    walls = creaMuri("wallsExt.lines")
+    walls = createWalls("wallsExt.lines")
 
     interior = structure("interior2.lines")
     doors = interiorDoors("doors2.lines")
